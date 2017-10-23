@@ -15,9 +15,7 @@ path: frontend/components-preview/index.html
 ### Vistas
 
 * Blog
-	![alt text][blog]
-	[blog]: https://github.com/wilmaribg/blog-test/blob/master/blog.png "Logo Title Text 2"
+	![alt text](https://github.com/wilmaribg/blog-test/blob/master/blog.png "Logo Title Text 2")
 	
 * Documentación 
-	![alt text][doc]
-	[doc]: https://github.com/wilmaribg/blog-test/blob/master/doc.png "Logo Title Text 2"
+	![alt text](https://github.com/wilmaribg/blog-test/blob/master/doc.png "Logo Title Text 2")
