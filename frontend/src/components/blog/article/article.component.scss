@@ -1,0 +1,48 @@
+@import '../../../theme/variables.scss';
+.article {
+	background-color: $iron;
+	min-height: 100vh;
+
+	.container {
+		background-color: $white;
+		
+		.header {
+			position: relative;
+			max-height: 250px;
+			overflow: hidden;
+
+			.image {
+				width: 100%;
+			}
+			
+			.shadow {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				box-shadow: inset 0 -115px 100px -20px rgba(80, 74, 74, 0.25)
+			}
+
+			.title {
+				position: absolute;
+				bottom: 0;
+				color: #fff;
+				padding: 10px;
+				text-align: center;
+				font-weight: bold;
+				padding-left: 16px;
+
+				.small {
+					color: rgba(255, 255, 255, 0.67);
+					font-size: 15px;
+					float: left;
+				}
+			}
+		}
+
+		.description {
+			padding: 16px;
+		}
+	}
+	
+}

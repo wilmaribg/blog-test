@@ -1,0 +1,39 @@
+
+<section class="article">
+
+	<b-container>
+
+		<b-row>
+			<b-col>
+				<div class="header">
+					<img class="image" :src="article.imagen" >
+					<div class="shadow"></div>
+					<h1 class="title">
+						{{ article.title  }}
+						<br>
+						<small class="small">
+							<router-link :to="{ name: 'blog', params: {} }">Back</router-link>
+							Publicate at: {{ article.updatedAt }}
+						</small> 
+					</h1>
+				</div>
+			</b-col>
+		</b-row>
+		<br>
+		<b-row>
+			<b-col>
+				<div class="description" v-html="article.longDescription">
+				</div>
+			</b-col>
+		</b-row>
+
+
+	</b-container>
+
+	<br>
+	<br>
+	<br>
+
+
+</section>
+

@@ -1,0 +1,27 @@
+
+<section class="list-item">
+	
+	<b-container>
+		
+		<b-row>
+			<b-col cols="12" sm="2">
+				<image-thumb :src="article.imagen"></image-thumb>
+			</b-col>
+
+			<b-col cols="12" sm="10">
+				<div class="title"> 
+					<router-link :to="{ name: 'article', params: { urlSlug: article.urlSlug } }">
+						{{ article.title }}
+					</router-link>
+				</div>
+				<div class="description">{{ article.shortDescription }}</div>
+				<br>
+				<small class="update-at">{{ fromNow }}</small>
+			</b-col>
+		</b-row>
+		
+
+	</b-container>
+
+</section>
+

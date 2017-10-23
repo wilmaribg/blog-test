@@ -1,0 +1,24 @@
+
+<section class="list">
+
+  <b-container class="bv-example-row">
+	
+	<!-- Blog/post title -->
+	<b-row>
+		<h2>
+			Posts 
+			<small>
+				<router-link :to="{ name: 'article-form', params: {} }">Create</router-link>
+			</small>
+		</h2>
+	</b-row>	
+	
+	<!-- posts list -->
+    <b-row v-for="post in posts">
+      <blog-article :article="post"></blog-article>
+    </b-row>
+
+  </b-container>
+  
+</section>
+

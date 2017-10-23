@@ -1,0 +1,19 @@
+@import '../../../theme/variables.scss';
+.list-item {
+	background-color: $white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+	
+	.title {
+		font-weight: bold;
+		font-size: 1.5em;
+		color: $blue;
+	}
+
+	.update-at {
+		display: block;
+		color: $muted;
+	}
+}

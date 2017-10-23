@@ -1,0 +1,22 @@
+<section class="article-form">
+  
+  <b-container>
+    
+    <h2>
+      Create post
+      <small>
+        <router-link :to="{ name: 'blog', params: {} }">Back</router-link>
+      </small>
+    </h2>
+    
+    <div class="panel-body">
+      <form>
+        <vue-form-generator :schema="schema" :model="model" :options="formOptions">
+        </vue-form-generator>
+      </form>
+    </div>
+    
+  </b-container>
+
+</section>
+

@@ -1,0 +1,18 @@
+.image-thumb {
+	text-align: center;
+	
+	.image {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		@media (max-width: 539px) {
+			width: 100%;
+			height: 200;
+			border-radius: 5px;
+		}
+	}
+}
